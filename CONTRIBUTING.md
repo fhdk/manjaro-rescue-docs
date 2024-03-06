@@ -6,10 +6,11 @@ Documentation is build using mkdocs
 
 See https://www.mkdocs.org for the tool used
 
-1. Create a virtual python environment 
+1. Create a poetry virtual python environment 
 2. Activate the environemt
-3. Install **mkdocs**
+3. Install **mkdocs** into the environment
 
+## Develop
 - Clone this repo
 - Navigate into the folder
 - run `mkdocs serve`
