@@ -1,11 +1,13 @@
-.PHONY: build
+.PHONY: clean
 
 help:
-    @echo "build - build site"
-    @echo "run-dev - run development server"
+	@echo "build - build site"
+	@echo "run-dev - run development server"
 
 build:
-    poetry install && poetry run mkdocs build
-
+	poetry install && poetry run mkdocs build
+	
 run-dev:
-    poetry run mkdocs serve
+	poetry run mkdocs serve
+
+clean:
