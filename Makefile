@@ -1,4 +1,4 @@
-.PHONY: clean
+.PHONY: build
 
 help:
     @echo "build - build site"
