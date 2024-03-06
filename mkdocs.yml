@@ -1,5 +1,8 @@
+repo_url: https://gitlab.manjaro.org/applications/pacman-mirrors
 site_name: Manjaro Rescue
 site_url: http://manjaro-rescue.local/
+theme:
+  name: readthedocs
 nav:
 - Home: index.md
 
