@@ -3,12 +3,12 @@
 Documentation is build using mkdocs
 
 ### Setup environment
-
 See https://www.mkdocs.org for the tool used
 ```test
 sudo pacman -Syu poetry
 ```
-## Develop
+
+### Code
 - Clone this repo
 - Navigate into the folder
 - run `poetry install`
