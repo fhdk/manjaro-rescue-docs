@@ -5,16 +5,17 @@ pkgver=0.1
 pkgrel=1
 license=('AGPL')
 url="https://github.com/fhdk/${pkgname}"
-makedepends=()
-source="${url}.git"
+makedepends=('git' 'python' 'python-poetry-core' 'mkdocs')
+source="git+${url}.git"
 sha256sums=('SKIP')
 
-prepare(){
-
+build() {
+    cd "${pkgname}"
+    make build
 }
-build(){
 
-}
-package(){
-
+package() {
+    cd "${pkgname}"
+    install -d "${pkgdir}/srv/http"
+    cp -R $"{srcdir}/site/.*" "${pkgdir}/srv/http"
 }

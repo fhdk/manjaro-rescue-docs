@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "manjaro-rescue-docs"
+version = "0.1.0"
+description = "Manjaro Live Rescue Documentation"
+authors = ["Frede Hundewadt <noreply@wonky.codeberg.org>"]
+license = "LICENCE"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3"
+mkdocs = "^1.5.3"
+
+[tool.poetry.group.dev.dependencies]
+mkdocs = "^1.5.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
