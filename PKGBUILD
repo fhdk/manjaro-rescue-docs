@@ -6,8 +6,9 @@ pkgrel=1
 license=('AGPL')
 url="https://github.com/fhdk/${pkgname}"
 makedepends=('git' 'python' 'python-poetry-core' 'mkdocs')
-source="git+${url}.git"
+source=("git+${url}.git")
 sha256sums=('SKIP')
+arch=("any")
 
 build() {
     cd "${pkgname}"
