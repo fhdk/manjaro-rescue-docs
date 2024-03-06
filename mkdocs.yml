@@ -2,3 +2,4 @@ site_name: Manjaro Rescue
 site_url: http://manjaro-rescue.local/
 nav:
 - Home: index.md
+
